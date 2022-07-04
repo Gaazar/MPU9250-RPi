@@ -1,6 +1,8 @@
 #pragma once
 #ifndef QUATERNIONFILTER_H
 #define QUATERNIONFILTER_H
+#include "../piduino.h"
+#include "math.h"
 
 enum class QuatFilterSel {
     NONE,
